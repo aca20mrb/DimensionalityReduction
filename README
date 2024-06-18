@@ -1,0 +1,14 @@
+Within this directory are a variety of different python files, each performing a certain task
+They are named after the dataset to which they are using; iris, wine, housing and optical
+There are 2 general file cases:
+
+_reductions: These are the main files used to obtain performance results
+_comparisons: These were experimental files used to determine optimal parameters of n and k
+
+Further Variations include files with formatting _rand
+This was a later addition which involves calculating the Rand Index for each clustering
+
+There are some further files, notably:
+explore-datasets: Opens samples of each dataset explored
+filter_optical_labels: Ensures the correct order of the sample labels for the optical dataset
+plot_eyes: A non-reduced plot of the average of each cluster obtained from the optical dataset
